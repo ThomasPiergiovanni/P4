@@ -1,33 +1,32 @@
 
 # PROJET 4
 
->L'idée de ce projet est de réalisé un "entonoir" vous permettant de présenter de manière détaillée une conception d'application.
+>*L'idée de ce projet est de réalisé un "entonoir" vous permettant de présenter de manière détaillée une conception d'application.*
 
-	Q: Entonnoir inversé ?
-
-	Q: Ce qui m'est demandé par  Alexandra :
-		- Analyser le besoin client
-		- Rédiger les spécifications fonctionnelles
-		- Produire une orientation des spécificités techniques avec une courte argumentation de la solution technique
-		- Dire si la solution part de scratch ou sur la base d’un CMS e-commerce*
-		--> Je vois donc:
-			- un document Specification Fonctionnelle, qu'il faudrait renommé,  qui est fait est divisé en 2 section) :
-				- Analyse Besoin
-				- Spécifications  Fonctionnelles
-
-[exemple cahier des charges](https://openclassrooms.com/fr/courses/4296701-gerez-un-projet-digital-avec-une-methodologie-en-cascade/4303841-redigez-les-specifications-techniques-de-votre-projet#/id/r-4388329)
+>**Q**:Ce qui m'est demandé par  Alexandra:
+>* Analyser le besoin client
+>* Rédiger les spécifications fonctionnelles
+>* Produire une orientation des spécificités techniques avec une courte argumentation de la solution technique
+>* Dire si la solution part de scratch ou sur la base d’un CMS e-commerce
+>Je vois donc:
+>* un document Specification Fonctionnelle, qu'il faudrait renommé,  qui est fait est divisé en 2 section) :
+>	* Analyse Besoin
+>	* Spécifications  Fonctionnelles  
+>Ca ressemble presque plus à un [cahier des charges](https://openclassrooms.com/fr/courses/4296701-gerez-un-projet-digital-avec-une-methodologie-en-cascade/4303841-redigez-les-specifications-techniques-de-votre-projet#/id/r-4388329)non?    
+>**A**:
 
 ## SPECIFICATIONS FONCTIONNELLES (Titre a discuter)
 
-> Pour réaliser le document, voici la trame suggérée :
+> *Pour réaliser le document, voici la trame suggérée :*
 
-	Q: J 'ai un peu un probleme avec le nom du document "Specification fonctionnelle"  car une partie ne fait pas partie des specifications fonctionnelles. A quel poiunt on peut être souple avec les sections faisant partie ou non des spécifications fonctionnelles?
+>**Q**: Je trouve utile d'ajouter les sections **Besoins explicite**, **Besoins implicite**, **Benchmark** et **Autre considérations marketing**. Ton avis?  
+>**A**:
 
-### 1. ANALYSE DES BESOINS CLIENT
+### 1. CADRE DU PROJET
 
 #### 1.1. *GÉNÉRALITÉS*
 
-> rappel de l'énoncé succinct
+> *rappel de l'énoncé succinct*
 
 * Moi: Développeur d’application junior  
 * Société :« IT Consulting & Development »  
@@ -49,6 +48,9 @@
 * Les livreurs ne peuvent pas indiquer qu’une livraison est effectuée en direct.
 
 #### 1.3. *BESOIN EXPLICITE*
+
+> **Q:** Cela me permet de permet de lister mes fonctionnalités et de réaliser un impact mapping plus facilement non?  
+> **A:** 
  
 * Être plus efficace dans la gestion des commandes :
 	*  Réception commande
@@ -68,12 +70,16 @@
 
 #### 1.4. *BESOIN IMPLICITE*
 
+> **Q:** Cela me permet de permet de lister mes fonctionnalités et de réaliser un impact mapping plus facilement non?  
+> **A:** 
+
 * une application fixe pour le travail à la pizzeria
 * une application mobile:
 	* pour le livreur pour qu il puisse confimer la livraison effectuée.
-	* pour le client.  
+	* pour le client.
 
-		Q: Moins implicte non?
+> **Q:** Avoir une application mobile pour le client c'est moins implicte non?  
+> **A::**
 
 * la recette des pizzas doit être standardisée pour anticiper les stocks disponibles
 * le client doit s'identifier (obligatoire car paiement possible a la livraison i.e. apres la préparation de la pizza)
@@ -82,7 +88,8 @@
  
 #### 1.5. *BENCHMARK*
 
-	Q: Me permet de faire un impact mapping plus solide a mon avis. Ton opinion?
+> **Q:** Cela Me permet de faire un impact mapping plus solide a mon avis. Ton opinion?  
+> **A:** 
 
 Grandes chaines américaines:
 * [Domino's](https://www.dominos.fr/)
@@ -92,7 +99,7 @@ Grandes chaines Francaise:
 * [Speed Rabbit](https://www.speedrabbitpizza.com/)
 * [Pizza Sprint](http://www.pizzasprint.com/)
 Plus petite chaines Francaise:
-* [La Boite à Pizza](https://www.laboiteapizza.com/)
+
 
 1 - mauvais
 2 - pas terrible
@@ -116,34 +123,33 @@ Considérer :
 		* Microsoft Azur pour NDL, AUS
 		* Amazon pour DEU
 
-		Q: comment connaitre les technologies utilisée d'un site? Utilisant inspecteur, console débogueur ou autre?
+> **Q:** comment connaitre les technologies utilisée d'un site? Utilisant inspecteur, console débogueur ou autre?  
+>**A:**
 
-**Synthese:**
 
+**Synthese:**  
 [*Commande en progrès chez dominos.fr*](https://github.com/ThomasPiergiovanni/P4/blob/master/data/dominos.jpg)
 
-**+:**
+**les "+":**  
 * Navigation simple et adapatabilité sur pc et mobile (app aussi disponible)
 * Syntaxe clair et direct
 * Rendu graphique franchisé et propre
 * Fonctionnalité du site optimisée, allant à l'essentiel, on s'éloigne pas de la commande, ça incite à la consommation
 
-**-:**
+**les "-":**
+* na
 
-Notes:
+*Notes:
 * on peut se connnecter/creer un compte ou simplement saisir son adresse de livraison,
 * Minimum de 15 E en livraison.
-* --> saisir nom telephone
+* --> saisir nom telephone*
 
 ##### 1.5.2 Pizza Hut
 ...
 
-Notes:
-Sur le segment de la pizza en livraison, concurrence accrue avec la montée en puissance de Deiveroo, UberEats qui met les indépendant sur ce marché.
+*Notes:  
+Sur le segment de la pizza en livraison, concurrence accrue avec la montée en puissance de Deiveroo, UberEats qui met les indépendant sur ce marché.*
 
-Ressources: 
-https://www.latribune.fr/carrieres/franchises/marche-de-la-pizza-le-formidable-appetit-des-chaines-de-franchise-495485.html
-https://www.observatoiredelafranchise.fr/dossier-franchise/la-livraison-stimule-le-marche-de-la-restauration-1470.htm
 
 #### 1.6. *CONSIDERATION MARKETING*
 
@@ -151,10 +157,12 @@ https://www.observatoiredelafranchise.fr/dossier-franchise/la-livraison-stimule-
 
 > réaliser des profils personas vous permettant d'identifier les fonctionnalités implicites
 
-	Q: J'ai mis cette section ici comme selon "Consideration marketing en cycle en v"?.
-
 * Utilisateur extremes
 * Utilisateur type
+
+*Notes:
+Section placée ici comme dans methodo cascade en V.*
+
 
 ###### 1.5.1.1 UTILISATEUR TYPE
 * Caratactérisqiques de chacun:
@@ -190,8 +198,8 @@ https://www.observatoiredelafranchise.fr/dossier-franchise/la-livraison-stimule-
 
 > Réaliser l'impact mapping et expliquer en quoi c'est utile lors de la conception d'une documentation fonctionnelle - en quoi cela vous a-t-il aider ?
 
-	Q: Selon cascade en V ça va dans les spécificités fonctionnelles
-	Q: C’est çà a quoi fait reference  "pense à modéliser le processus de prise de commande" dans la fiche mission de OC?
+>**Q:** Selon cascade en V ça va dans les spécificités fonctionnelles. Ton avis?  
+>**A:** 
 
 ### 2. SPECIFICATIONS FONCTIONNELLES
 
@@ -199,22 +207,21 @@ https://www.observatoiredelafranchise.fr/dossier-franchise/la-livraison-stimule-
 
 > Identification des acteurs & explications sur chacun d'entre eux.
 
-[mon diagramme test](https://github.com/ThomasPiergiovanni/P4/blob/master/data/test.jpg)
-
 UML : diagramme de contexte
 
 #### *2.2. LISTING DES FONCTIONNALITÉS*
 
 > Lister l'ensemble des fonctionnalités. Une fois fait, regrouper celles-ci en les mettant en couleur (l'idée est de regrouper celles qui semblent concerner les même sujets)
 
-	Q: En fait, c’est la liste de mes cas d’utilisations ?
-	Q: est ce que je peux pas mettre ca juste avant l'impact mapping
+> **Q**: En fait, c’est la liste de mes cas d’utilisations ?  
+> **A**:
+
+> **Q**: est ce que je peux pas mettre ca juste avant l'impact mapping?
+> **A**:
 
 #### *2.3. DIAGRAMME DE PACKAGE*
 
 > Chaque couleur utilisée plus haut représente un package. Donner un nom à votre groupement et votre package est prêt.
-
-	Q: Pour la logique de création des packages ok de mettre package après Le listing des fo ctionnalité. Mais pour le rendu final, ça decvrait pas aller plutot avant: Diagramme de contexte > Diagramme de package > Liste des fonctionnalités > Diagramme des cas d'utilisation?
 
 UML : diagramme de package
 
@@ -224,7 +231,8 @@ UML : diagramme de package
 
 > réaliser un use case reprenant l'ensemble des fonctionnalités listées de la couleur de votre package
 
-	Q: Je dois réaliser un seul use case?.
+> **Q**: Je dois réaliser un seul use case?  
+> **A**:  
 
 UML : diagramme cas d’utilissation
 
@@ -232,14 +240,8 @@ UML : diagramme cas d’utilissation
 
 > Réaliser un ou plusieurs scénarios pour chaque use case. L'idée étant que vos scénarios doivent balayer l'ensemble des "bulles" de votre cas d'utilisation.
 
-	Q:  UML, Description textuelle des cas d »utilisation i.e. « la fiche descriptive » :
-			- Identification
-			- Description du scenario
-			- Fin et post conditions
-			- Compléments
-		Ou :
-			- Utiliser les user stories ?
-
+> **Q**: C'est la description textuelle des cas d'utilisation i.e. « la fiche descriptive »?  
+> **A**:   
 
 ##### 2.3.2. - Package 2 ...
 
@@ -250,7 +252,8 @@ UML : diagramme cas d’utilissation
 > Attention : Ceci est un système d'entonoir a chaque fois que vous ajouter une nouvelle information (par exemple un nouvel acteur lors de l'explication des package), vous devrez remonter sur l'ensemble des parties du document pour vous assurer que vous ajouterez ce nouvel acteur dans tous vos précédents schémas.  
 > Tips : Pour les scénarios, bien utiliser la partie finale de "question ouverte" pour démontrer les fonctionnalités non obligatoires mais que vous pouvez imaginer. Cela permettra de démontrer votre questionnement sur le projet et que vous êtes capable de voir plus loin que ce que l'on vous demande, sans pour autant nécessiter de tout représenter dans vos diagrammes UML !
 
-	Q : Pas compris la partie tips
+> **Q** : J'ai pas compris la partie tips?
+> **A** : 
 
 ### 2. SPECIFICATION TECHNIQUES
 
@@ -258,18 +261,17 @@ UML : diagramme cas d’utilissation
 > * Serveur web (OVH par exemple)
 > * Python & Django
 > * HTML / CSS / JS
->Pour chacune des informations ci-dessus, trouvez une source sur le net justifiant de la renommée et de la pertinence de ces choix, et intégrez-les à votre document de présentation de cette partie.
+> Pour chacune des informations ci-dessus, trouvez une source sur le net justifiant de la renommée et de la pertinence de ces choix, et intégrez-les à votre document de présentation de cette partie.
 
-	Q: 
-		- Serveur: hardware + logiciel qui peut être utilisé à distance par un client.
-		- Python : langage de programation
-		- Django : web framework: logiciel qui permet de creer des application web avec des 'fonctions'standardisée. ex: librairies pour acceder à une BD, management de session utiisateur, etc.
-		- HTML: langage de balisage pour pages web
-		- CSS: feuiile de style pour page web (police, format, couleur, etc)
-		- JS : langage de programation utilisé pour le web, notteament pour rendre les page dynamiques.
+Scorecard(methode de la cascade en V).
 
-		Comment je fais pour savoir que par exemple j'utilise pas de PHP?
+> **Q**: Tu liste ces composant, mais comment je fais pour savoir que par exemple j'utilise pas de PHP?    
+> **A**:
 
-Scorecard  : methode de la cascade en V
+> **Q**: Pas de diagramme de classe? diagramme de déploiement ?
+> **A**
 
-	Q: Diagramme de classe ? Diagramme de déploiement ?
+
+*Ressources: 
+https://www.latribune.fr/carrieres/franchises/marche-de-la-pizza-le-formidable-appetit-des-chaines-de-franchise-495485.html
+https://www.observatoiredelafranchise.fr/dossier-franchise/la-livraison-stimule-le-marche-de-la-restauration-1470.html*
