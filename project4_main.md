@@ -112,7 +112,7 @@ Persona Max : Utilisateur fidelisé.
 
 > Identification des acteurs & explications sur chacun d'entre eux.
 
-[mon diagramme test]("/data/test.jpg")
+[mon diagramme test](https://github.com/ThomasPiergiovanni/P4/blob/master/data/test.jpg)
 
 UML : diagramme de contexte
 
