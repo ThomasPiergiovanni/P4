@@ -5,30 +5,41 @@
 
 	Q: Entonnoir inversé ?
 
-## SPECIFICATION FONCTIONNELLES
+	Q: Ce qui m'est demandé par  Alexandra :
+		- Analyser le besoin client
+		- Rédiger les spécifications fonctionnelles
+		- Produire une orientation des spécificités techniques avec une courte argumentation de la solution technique
+		- Dire si la solution part de scratch ou sur la base d’un CMS e-commerce*
+		--> Je vois donc:
+			- un document Specification Fonctionnelle, qu'il faudrait renommé,  qui est fait est divisé en 2 section) :
+				- Analyse Besoin
+				- Spécifications  Fonctionnelles
+
+[exemple cahier des charges](https://openclassrooms.com/fr/courses/4296701-gerez-un-projet-digital-avec-une-methodologie-en-cascade/4303841-redigez-les-specifications-techniques-de-votre-projet#/id/r-4388329)
+
+## SPECIFICATIONS FONCTIONNELLES (Titre a discuter)
 
 > Pour réaliser le document, voici la trame suggérée :
 
-### 1. BESOINS CLIENT
+	Q: J 'ai un peu un probleme avec le nom du document "Specification fonctionnelle"  car une partie ne fait pas partie des specifications fonctionnelles. A quel poiunt on peut être souple avec les sections faisant partie ou non des spécifications fonctionnelles?
+
+### 1. ANALYSE DES BESOINS CLIENT
+
+	Q: Ici, il me semble qu il me faut plus de contenu que celui proposé par la trame (exemple: faire un genre de benchmark pour que je puisse proposer une solution adaptée) non?
 
 #### 1.1. *GÉNÉRALITÉS*
 
 > rappel de l'énoncé succinct
 
-	Q: Cela va dans le cahier des charges normalement ? Du coup, tu intègre ça au specification fonctionnelle?
+	Q: Même gnere de question que la précédente: Cela va dans le cahier des charges normalement ? Du coup, tu intègre ça au specification fonctionnelle?
 
-Moi: Développeur d’application junior
-Société :« IT Consulting & Development »
-Responsable : Alexandra
-Client : OC Pizza (Groupe de pizzeria)
-Interlocuteur client : Lola (Co-fondatrice)
-Objet :Besoin d’un système de gestion pour ces restaurants. Elle n’a pas trouvé son bonheur parmi les logiciels existants.
+Moi: Développeur d’application junior  
+Société :« IT Consulting & Development »  
+Responsable : Alexandra  
+Client : OC Pizza (Groupe de pizzeria)  
+Interlocuteur client : Lola (Co-fondatrice)  
+Objet :Besoin d’un système de gestion pour ces restaurants. Elle n’a pas trouvé son bonheur parmi les logiciels existants.  
 
-*Demande de Alexandra pour moi :
-* Analyser le besoin client
-* Rédiger les spécifications fonctionnelles
-* Produire une orientation des spécificités techniques avec une courte argumentation de la solution technique
-* Dire si la solution part de scratch ou sur la base d’un CMS e-commerce*
 
 #### 1.2. *CONTEXTE*
 * « OC Pizza » est un jeune groupe de pizzeria en croissance.
@@ -52,7 +63,7 @@ Objet :Besoin d’un système de gestion pour ces restaurants. Elle n’a pas tr
 	*  En livraison
 * Suivre en temps réel le stock disponible pour savoir quelle pizza peuvent encore être réalisées
 * Proposer un site internet pour que les clients puissent :
-	*   commander en ligne en plus de pouvoir téléphoner et commander sur place.
+	*  commander en ligne en plus de pouvoir téléphoner et commander sur place.
 	*  Payer en ligne ou à la livraison
 	*  Modifier ou annuler la commande tant que celle-ci n’a pas été préparée.
 * Proposer un aide – mémoire aux pizzaiolo indiquant la recette de chaque pizza
@@ -60,20 +71,30 @@ Objet :Besoin d’un système de gestion pour ces restaurants. Elle n’a pas tr
 
 #### 1.4. *BESOIN IMPLICITE*
 
+* une application fixe pour le travail à la pizzeria
+* une application mobile:
+	* pour le livreur pour qu il puisse confimer la livraison effectuée.
+	* pour le client.
 
+		Q: Moins implicte non?
+
+* la recette des pizzas doit être standardisée pour anticiper les stocks disponibles
+* le client doit s'identifier (obligatoire car paiement possible a la livraison i.e. apres la préparation de la pizza)
  
 #### 1.5. *BENCHMARK*
 m’inspirer de agile
 Me permet de faire un impact mapping plus solide.
 
-
 #### 1.6. *CONSIDERATION MARKETING*
 
 ##### 1.5.1. PERSONA
-réaliser des profils personas vous permettant d'identifier les fonctionnalités implicites
-m’inspirer de agile/ SECTION CONSIDERATION MARKETING EN CYCLE EN V
+
+> réaliser des profils personas vous permettant d'identifier les fonctionnalités implicites
+
+	Q: Dans "Consideration marketing en cycle en v".
+
 Pesona Min : Utilisateur occasionel
-Persona Max : Utilisateur cline
+Persona Max : Utilisateur fidelisé.
 
 ##### 1.5.2. AUTRES CONSIDERATIONS MARKETING (optionnel)
 * référencement
@@ -88,11 +109,13 @@ Persona Max : Utilisateur cline
 	Q: Selon cascade en V ça va dans les spécificités fonctionnelles
 	Q: C’est çà a quoi fait reference  "pense à modéliser le processus de prise de commande" dans la fiche mission de OC?
 
-### 2. SPECIFICATION FONCTIONNELLES
+### 2. SPECIFICATIONS FONCTIONNELLES
 
 #### *2.1. DIAGRAMME DE CONTEXTE*
 
 > Identification des acteurs & explications sur chacun d'entre eux.
+
+[mon diagramme test]("data/test.jpg")
 
 UML : diagramme de contexte
 
@@ -101,6 +124,7 @@ UML : diagramme de contexte
 > Lister l'ensemble des fonctionnalités. Une fois fait, regrouper celles-ci en les mettant en couleur (l'idée est de regrouper celles qui semblent concerner les même sujets)
 
 	Q: En fait, c’est la liste de mes cas d’utilisations ?
+	Q: est ce que je peux pas mettre ca juste avant l'impact mapping
 
 #### *2.3. DIAGRAMME DE PACKAGE*
 
@@ -138,8 +162,8 @@ UML : diagramme cas d’utilissation
 
 #### *2.4. CYCLE DE VIE D'UNE COMMANDE*
 
-> Réaliser un diagramme d'activité qui représente l'ensemble du cycle de vie d'une commande, de sa création à sa finalisation.
-> Attention : Ceci est un système d'entonoir a chaque fois que vous ajouter une nouvelle information (par exemple un nouvel acteur lors de l'explication des package), vous devrez remonter sur l'ensemble des parties du document pour vous assurer que vous ajouterez ce nouvel acteur dans tous vos précédents schémas.
+> Réaliser un diagramme d'activité qui représente l'ensemble du cycle de vie d'une commande, de sa création à sa finalisation.  
+> Attention : Ceci est un système d'entonoir a chaque fois que vous ajouter une nouvelle information (par exemple un nouvel acteur lors de l'explication des package), vous devrez remonter sur l'ensemble des parties du document pour vous assurer que vous ajouterez ce nouvel acteur dans tous vos précédents schémas.  
 > Tips : Pour les scénarios, bien utiliser la partie finale de "question ouverte" pour démontrer les fonctionnalités non obligatoires mais que vous pouvez imaginer. Cela permettra de démontrer votre questionnement sur le projet et que vous êtes capable de voir plus loin que ce que l'on vous demande, sans pour autant nécessiter de tout représenter dans vos diagrammes UML !
 
 	Q : Pas compris la partie tips
