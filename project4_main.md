@@ -31,14 +31,12 @@
 
 > rappel de l'énoncé succinct
 
-	Q: Même gnere de question que la précédente: Cela va dans le cahier des charges normalement ? Du coup, tu intègre ça au specification fonctionnelle?
-
-Moi: Développeur d’application junior  
-Société :« IT Consulting & Development »  
-Responsable : Alexandra  
-Client : OC Pizza (Groupe de pizzeria)  
-Interlocuteur client : Lola (Co-fondatrice)  
-Objet :Besoin d’un système de gestion pour ces restaurants. Elle n’a pas trouvé son bonheur parmi les logiciels existants.  
+* Moi: Développeur d’application junior  
+* Société :« IT Consulting & Development »  
+* Responsable : Alexandra  
+* Client : OC Pizza (Groupe de pizzeria)  
+* Interlocuteur client : Lola (Co-fondatrice)  
+* Objet :Besoin d’un système de gestion pour ces restaurants. Elle n’a pas trouvé son bonheur parmi les logiciels existants.  
 
 
 #### 1.2. *CONTEXTE*
@@ -74,7 +72,7 @@ Objet :Besoin d’un système de gestion pour ces restaurants. Elle n’a pas tr
 * une application fixe pour le travail à la pizzeria
 * une application mobile:
 	* pour le livreur pour qu il puisse confimer la livraison effectuée.
-	* pour le client.
+	* pour le client.  
 
 		Q: Moins implicte non?
 
@@ -82,7 +80,6 @@ Objet :Besoin d’un système de gestion pour ces restaurants. Elle n’a pas tr
 * le client doit s'identifier (obligatoire car paiement possible a la livraison i.e. apres la préparation de la pizza)
  
 #### 1.5. *BENCHMARK*
-m’inspirer de agile
 Me permet de faire un impact mapping plus solide.
 
 #### 1.6. *CONSIDERATION MARKETING*
@@ -91,9 +88,9 @@ Me permet de faire un impact mapping plus solide.
 
 > réaliser des profils personas vous permettant d'identifier les fonctionnalités implicites
 
-	Q: Dans "Consideration marketing en cycle en v".
+	Q: Dans "Consideration marketing en cycle en v"?.
 
-Pesona Min : Utilisateur occasionel
+Pesona Min : Utilisateur occasionel.  
 Persona Max : Utilisateur fidelisé.
 
 ##### 1.5.2. AUTRES CONSIDERATIONS MARKETING (optionnel)
