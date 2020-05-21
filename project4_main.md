@@ -25,8 +25,6 @@
 
 ### 1. ANALYSE DES BESOINS CLIENT
 
-	Q: Ici, il me semble qu il me faut plus de contenu que celui proposé par la trame (exemple: faire un genre de benchmark pour que je puisse proposer une solution adaptée) non?
-
 #### 1.1. *GÉNÉRALITÉS*
 
 > rappel de l'énoncé succinct
@@ -40,6 +38,7 @@
 
 
 #### 1.2. *CONTEXTE*
+
 * « OC Pizza » est un jeune groupe de pizzeria en croissance.
 * Frank et Lola sont les fondateur.
 * « OC Pizza » est spécialisé dans la vente en livraison et à emporté
@@ -78,9 +77,73 @@
 
 * la recette des pizzas doit être standardisée pour anticiper les stocks disponibles
 * le client doit s'identifier (obligatoire car paiement possible a la livraison i.e. apres la préparation de la pizza)
+* un client habitant a plus de x distance ne pourra être livré sans suplément de prix et devra payer d'avance
+
  
 #### 1.5. *BENCHMARK*
-Me permet de faire un impact mapping plus solide.
+
+	Q: Me permet de faire un impact mapping plus solide a mon avis. Ton opinion?
+
+Grandes chaines américaines:
+* [Domino's](https://www.dominos.fr/)
+* [Pizza Hut](https://www.pizzahut.fr/) 
+Grandes chaines Francaise:
+* [La Boite à Pizza](https://www.laboiteapizza.com/)
+* [Speed Rabbit](https://www.speedrabbitpizza.com/)
+* [Pizza Sprint](http://www.pizzasprint.com/)
+Plus petite chaines Francaise:
+* [La Boite à Pizza](https://www.laboiteapizza.com/)
+
+1 - mauvais
+2 - pas terrible
+3 - ok
+4 - bien
+5 - tres bien
+
+##### 1.5.1 Domino's
+
+Listez +/- et une image 'révélatrice du site"
+Considérer : 
+* Ergonomie (navigation, adaptabilité mobile): 5 : Navigation simple. Fixe et mobile ont la meme structure--> facilité pour passer de l'un a l autre
+* Charte éditoriale (ton, langues): 4 : ton direct clair
+* Charte graphique (typographie, palette de couleurs) : 4 : clair, images propres, fon envie, couleur identifiable à la marque
+* Fonctionnalités (ex. système de réservation, newsletter): 5: incite à la vente, simple d'utilisation et intuitifs
+	* Systeme de commande: 5:  a partir de la selection de base à chaque suivant > entree, salades > Dessert > Boissons > PAiemnet
+	* Systeme de paiement: 4: tous. mais Minimum 15€ et supplément livraison
+	* Newsletter: n/a
+* Technologie utilisée:
+	* Hebergeur:
+		* Microsoft Azur pour NDL, AUS
+		* Amazon pour DEU
+
+		Q: comment connaitre les technologies utilisée d'un site? Utilisant inspecteur, console débogueur ou autre?
+
+**Synthese:**
+
+[*Commande en progrès chez dominos.fr*](https://github.com/ThomasPiergiovanni/P4/blob/master/data/dominos.jpg)
+
+**+:**
+* Navigation simple et adapatabilité sur pc et mobile (app aussi disponible)
+* Syntaxe clair et direct
+* Rendu graphique franchisé et propre
+* Fonctionnalité du site optimisée, allant à l'essentiel, on s'éloigne pas de la commande, ça incite à la consommation
+
+**-:**
+
+Notes:
+* on peut se connnecter/creer un compte ou simplement saisir son adresse de livraison,
+* Minimum de 15 E en livraison.
+* --> saisir nom telephone
+
+##### 1.5.2 Pizza Hut
+...
+
+Notes:
+Sur le segment de la pizza en livraison, concurrence accrue avec la montée en puissance de Deiveroo, UberEats qui met les indépendant sur ce marché.
+
+Ressources: 
+https://www.latribune.fr/carrieres/franchises/marche-de-la-pizza-le-formidable-appetit-des-chaines-de-franchise-495485.html
+https://www.observatoiredelafranchise.fr/dossier-franchise/la-livraison-stimule-le-marche-de-la-restauration-1470.htm
 
 #### 1.6. *CONSIDERATION MARKETING*
 
@@ -88,10 +151,34 @@ Me permet de faire un impact mapping plus solide.
 
 > réaliser des profils personas vous permettant d'identifier les fonctionnalités implicites
 
-	Q: Dans "Consideration marketing en cycle en v"?.
+	Q: J'ai mis cette section ici comme selon "Consideration marketing en cycle en v"?.
 
-Pesona Min : Utilisateur occasionel.  
-Persona Max : Utilisateur fidelisé.
+* Utilisateur extremes
+* Utilisateur type
+
+###### 1.5.1.1 UTILISATEUR TYPE
+* Caratactérisqiques de chacun:
+	* Type utilisateur : age , genre, proffession, catégorie socioprofessionnelle)
+	* besoins ou objectifs vis-à-vis du produit ou service
+	* critères de choix et d'habitudes
+	* façon de naviguer en ligne
+	* expertise du domaine
+
+###### 1.5.1.1 UTILISATEUR MAX
+* Caratactérisqiques de chacun:
+	* Type utilisateur : age , genre, proffession, catégorie socioprofessionnelle)
+	* besoins ou objectifs vis-à-vis du produit ou service
+	* critères de choix et d'habitudes
+	* façon de naviguer en ligne
+	* expertise du domaine
+
+###### 1.5.1.1 UTILISTAEUR MIN
+* Caratactérisqiques de chacun:
+	* Type utilisateur : age , genre, proffession, catégorie socioprofessionnelle)
+	* besoins ou objectifs vis-à-vis du produit ou service
+	* critères de choix et d'habitudes
+	* façon de naviguer en ligne
+	* expertise du domaine
 
 ##### 1.5.2. AUTRES CONSIDERATIONS MARKETING (optionnel)
 * référencement
@@ -172,6 +259,16 @@ UML : diagramme cas d’utilissation
 > * Python & Django
 > * HTML / CSS / JS
 >Pour chacune des informations ci-dessus, trouvez une source sur le net justifiant de la renommée et de la pertinence de ces choix, et intégrez-les à votre document de présentation de cette partie.
+
+	Q: 
+		- Serveur: hardware + logiciel qui peut être utilisé à distance par un client.
+		- Python : langage de programation
+		- Django : web framework: logiciel qui permet de creer des application web avec des 'fonctions'standardisée. ex: librairies pour acceder à une BD, management de session utiisateur, etc.
+		- HTML: langage de balisage pour pages web
+		- CSS: feuiile de style pour page web (police, format, couleur, etc)
+		- JS : langage de programation utilisé pour le web, notteament pour rendre les page dynamiques.
+
+		Comment je fais pour savoir que par exemple j'utilise pas de PHP?
 
 Scorecard  : methode de la cascade en V
 
