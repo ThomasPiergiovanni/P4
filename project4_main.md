@@ -10,9 +10,10 @@
 >* Dire si la solution part de scratch ou sur la base d’un CMS e-commerce
 >Je vois donc:
 >* un document Specification Fonctionnelle, qu'il faudrait renommé,  qui est fait est divisé en 2 section) :
->	* Analyse Besoin
+>	* Cadre du projet / contexte
 >	* Spécifications  Fonctionnelles  
->Ca ressemble presque plus à un [cahier des charges](https://openclassrooms.com/fr/courses/4296701-gerez-un-projet-digital-avec-une-methodologie-en-cascade/4303841-redigez-les-specifications-techniques-de-votre-projet#/id/r-4388329)non?    
+>Ca ressemble presque plus à un [cahier des charges](https://openclassrooms.com/fr/courses/4296701-gerez-un-projet-digital-avec-une-methodologie-en-cascade/4303841-redigez-les-specifications-techniques-de-votre-projet#/id/r-4388329) non?
+
 >**A**:
 
 ## SPECIFICATIONS FONCTIONNELLES (Titre a discuter)
@@ -49,7 +50,7 @@
 
 #### 1.3. *BESOIN EXPLICITE*
 
-> **Q:** Cela me permet de permet de lister mes fonctionnalités et de réaliser un impact mapping plus facilement non?  
+> **Q:** Cette section devrais me permettre de lister mes fonctionnalités et de réaliser un impact mapping plus facilement. Ton avis  
 > **A:** 
  
 * Être plus efficace dans la gestion des commandes :
@@ -70,7 +71,7 @@
 
 #### 1.4. *BESOIN IMPLICITE*
 
-> **Q:** Cela me permet de permet de lister mes fonctionnalités et de réaliser un impact mapping plus facilement non?  
+> **Q:** Cette section devrais me permettre de lister mes fonctionnalités et de réaliser un impact mapping plus facilement. Ton avis  
 > **A:** 
 
 * une application fixe pour le travail à la pizzeria
@@ -79,7 +80,7 @@
 	* pour le client.
 
 > **Q:** Avoir une application mobile pour le client c'est moins implicte non?  
-> **A::**
+> **A:**
 
 * la recette des pizzas doit être standardisée pour anticiper les stocks disponibles
 * le client doit s'identifier (obligatoire car paiement possible a la livraison i.e. apres la préparation de la pizza)
@@ -101,34 +102,35 @@ Grandes chaines Francaise:
 Plus petite chaines Francaise:
 
 
-1 - mauvais
+1 - mauvais  
 2 - pas terrible
-3 - ok
-4 - bien
-5 - tres bien
+3 - ok  
+4 - bien  
+5 - tres bien  
 
-##### 1.5.1 Domino's
+##### 1.5.1 DOMINO'S
 
-Listez +/- et une image 'révélatrice du site"
-Considérer : 
-* Ergonomie (navigation, adaptabilité mobile): 5 : Navigation simple. Fixe et mobile ont la meme structure--> facilité pour passer de l'un a l autre
-* Charte éditoriale (ton, langues): 4 : ton direct clair
-* Charte graphique (typographie, palette de couleurs) : 4 : clair, images propres, fon envie, couleur identifiable à la marque
-* Fonctionnalités (ex. système de réservation, newsletter): 5: incite à la vente, simple d'utilisation et intuitifs
-	* Systeme de commande: 5:  a partir de la selection de base à chaque suivant > entree, salades > Dessert > Boissons > PAiemnet
-	* Systeme de paiement: 4: tous. mais Minimum 15€ et supplément livraison
-	* Newsletter: n/a
-* Technologie utilisée:
+
+
+* **Ergonomie** (navigation, adaptabilité mobile): **5** : Navigation simple. Fixe et mobile ont la meme structure--> facilité pour passer de l'un a l autre
+* **Charte éditoriale** (ton, langues): **4** : ton direct clair
+* **Charte graphique** (typographie, palette de couleurs) : **4** : clair, images propres, fon envie, couleur identifiable à la marque
+* **Fonctionnalités** (ex. système de réservation, newsletter): **5**: incite à la vente, simple d'utilisation et intuitifs
+	* **Systeme de commande**: **5**:  a partir de la selection de base à chaque suivant > entree, salades > Dessert > Boissons > PAiemnet
+	* **Systeme de paiement: 4**: tous. mais Minimum 15€ et supplément livraison
+	* **Newsletter:** n/a
+* **Technologie utilisée:**
 	* Hebergeur:
 		* Microsoft Azur pour NDL, AUS
 		* Amazon pour DEU
 
-> **Q:** comment connaitre les technologies utilisée d'un site? Utilisant inspecteur, console débogueur ou autre?  
->**A:**
+[*...une commande en progrès chez dominos.fr*](https://github.com/ThomasPiergiovanni/P4/blob/master/data/dominos.jpg)
+
+> **Q:** Comment connaitre les technologies utilisée d'un site? Utilisant inspecteur, console débogueur ou autre?  
+> **A:**
 
 
 **Synthese:**  
-[*Commande en progrès chez dominos.fr*](https://github.com/ThomasPiergiovanni/P4/blob/master/data/dominos.jpg)
 
 **les "+":**  
 * Navigation simple et adapatabilité sur pc et mobile (app aussi disponible)
@@ -137,14 +139,14 @@ Considérer :
 * Fonctionnalité du site optimisée, allant à l'essentiel, on s'éloigne pas de la commande, ça incite à la consommation
 
 **les "-":**
-* na
+* NA
 
 *Notes:
 * on peut se connnecter/creer un compte ou simplement saisir son adresse de livraison,
 * Minimum de 15 E en livraison.
 * --> saisir nom telephone*
 
-##### 1.5.2 Pizza Hut
+##### 1.5.2 PIZZA HUT
 ...
 
 *Notes:  
@@ -227,6 +229,7 @@ UML : diagramme de package
 
 
 ##### 2.3.1. - Package 1
+
 ###### 2.3.1.1. - Diagramme de cas d'utilisation 1 (Use case) :
 
 > réaliser un use case reprenant l'ensemble des fonctionnalités listées de la couleur de votre package
@@ -248,11 +251,13 @@ UML : diagramme cas d’utilissation
 
 #### *2.4. CYCLE DE VIE D'UNE COMMANDE*
 
-> Réaliser un diagramme d'activité qui représente l'ensemble du cycle de vie d'une commande, de sa création à sa finalisation.  
-> Attention : Ceci est un système d'entonoir a chaque fois que vous ajouter une nouvelle information (par exemple un nouvel acteur lors de l'explication des package), vous devrez remonter sur l'ensemble des parties du document pour vous assurer que vous ajouterez ce nouvel acteur dans tous vos précédents schémas.  
-> Tips : Pour les scénarios, bien utiliser la partie finale de "question ouverte" pour démontrer les fonctionnalités non obligatoires mais que vous pouvez imaginer. Cela permettra de démontrer votre questionnement sur le projet et que vous êtes capable de voir plus loin que ce que l'on vous demande, sans pour autant nécessiter de tout représenter dans vos diagrammes UML !
+> *Réaliser un diagramme d'activité qui représente l'ensemble du cycle de vie d'une commande, de sa création à sa finalisation.*
 
-> **Q** : J'ai pas compris la partie tips?
+> *Attention : Ceci est un système d'entonoir a chaque fois que vous ajouter une nouvelle information (par exemple un nouvel acteur lors de l'explication des package), vous devrez remonter sur l'ensemble des parties du document pour vous assurer que vous ajouterez ce nouvel acteur dans tous vos précédents schémas. *
+
+> *Tips : Pour les scénarios, bien utiliser la partie finale de "question ouverte" pour démontrer les fonctionnalités non obligatoires mais que vous pouvez imaginer. Cela permettra de démontrer votre questionnement sur le projet et que vous êtes capable de voir plus loin que ce que l'on vous demande, sans pour autant nécessiter de tout représenter dans vos diagrammes UML !*
+
+> **Q** : J'ai pas compris la partie tips?  
 > **A** : 
 
 ### 2. SPECIFICATION TECHNIQUES
@@ -268,10 +273,10 @@ Scorecard(methode de la cascade en V).
 > **Q**: Tu liste ces composant, mais comment je fais pour savoir que par exemple j'utilise pas de PHP?    
 > **A**:
 
-> **Q**: Pas de diagramme de classe? diagramme de déploiement ?
+> **Q**: Pas de diagramme de classe? diagramme de déploiement ?  
 > **A**
 
 
-*Ressources: 
-https://www.latribune.fr/carrieres/franchises/marche-de-la-pizza-le-formidable-appetit-des-chaines-de-franchise-495485.html
-https://www.observatoiredelafranchise.fr/dossier-franchise/la-livraison-stimule-le-marche-de-la-restauration-1470.html*
+*Ressources:   
+https://www.latribune.fr/carrieres/franchises/marche-de-la-pizza-le-formidable-appetit-des-chaines-de-franchise-495485.html  
+https://www.observatoiredelafranchise.fr/dossier-franchise/la-livraison-stimule-le-marche-de-la-restauration-1470.html*    
