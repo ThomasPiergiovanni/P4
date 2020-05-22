@@ -162,33 +162,68 @@ Sur le segment de la pizza en livraison, concurrence accrue avec la montée en p
 * Utilisateur extremes
 * Utilisateur type
 
+* Caratactérisqiques de chacun:
+	* Type utilisateur : age , genre, proffession, catégorie socioprofessionnelle)
+	* besoins ou objectifs vis-à-vis du produit ou service
+	* critères de choix et d'habitudes
+	* façon de naviguer en ligne
+	* expertise du domaine
+
+
 *Notes:
 Section placée ici comme dans methodo cascade en V.*
 
 
-###### 1.5.1.1 UTILISATEUR TYPE
-* Caratactérisqiques de chacun:
-	* Type utilisateur : age , genre, proffession, catégorie socioprofessionnelle)
-	* besoins ou objectifs vis-à-vis du produit ou service
-	* critères de choix et d'habitudes
-	* façon de naviguer en ligne
-	* expertise du domaine
+###### 1.5.1.1 UTILISATEUR TYPE HOMME URBAIN CSP
 
-###### 1.5.1.1 UTILISATEUR MAX
-* Caratactérisqiques de chacun:
-	* Type utilisateur : age , genre, proffession, catégorie socioprofessionnelle)
-	* besoins ou objectifs vis-à-vis du produit ou service
-	* critères de choix et d'habitudes
-	* façon de naviguer en ligne
-	* expertise du domaine
+* Type utilisateur :
+	* age: 30
+	* genre: m
+	* nom : Pierre
+	* proffession: commercial dans une assurance
+	* catégorie socioprofessionnelle: cadre
+* besoins ou objectifs vis-à-vis du produit ou service: manger chaud, qui a du gout, pas besoin de cuisiner
+* critères de choix et d'habitudes: facilement accessible, rapidement disponible, consome 2 x p/moi, curieux, cherche de nouvelles opportunité
+* façon de naviguer en ligne: mobile et pc
+* expertise du domaine: par sa curiosité et son pouvoir d'achat, il essaie bcp de pizzas. Capable de comparer --> Qualité
 
-###### 1.5.1.1 UTILISTAEUR MIN
-* Caratactérisqiques de chacun:
-	* Type utilisateur : age , genre, proffession, catégorie socioprofessionnelle)
-	* besoins ou objectifs vis-à-vis du produit ou service
-	* critères de choix et d'habitudes
-	* façon de naviguer en ligne
-	* expertise du domaine
+###### 1.5.1.2 UTILISATEUR TYPE MERE DE FAMILLE
+
+* Type utilisateur :
+	* age: 42
+	* genre: F
+	* prenom: Sabrina
+	* proffession: employée dans un magasin de pret à porter
+	* catégorie socioprofessionnelle: employée
+* besoins ou objectifs vis-à-vis du produit ou service: qui plait à tous dans la famille, en quantité suffisante, pas besoin de cuisiner, prix accessible
+* critères de choix et d'habitudes: facilement accessible, consome une fois p/semaine le vendredi soir, 
+* façon de naviguer en ligne: mobile
+* expertise du domaine: moyenne, son expertise est limitée par son budget (elle n 'a pas pu tout essayé). son critère --> Prix
+
+
+###### 1.5.1.3 UTILISATEUR MAX, L'ACCRO
+* Type utilisateur :
+	* age: 40
+	* genre: H
+	* prenom: Joachim
+	* proffession: ingénieur informaticien
+	* catégorie socioprofessionnelle: cadre
+* besoins ou objectifs vis-à-vis du produit ou service: addiction, en quantité suffisante, pas besoin de cuisiner, à ses habitudes, commande toujours pareils
+* critères de choix et d'habitudes: facilement accessible, une fois qu'il a trouver qqch a sa convenance, il ne chereche pas plus loin
+* façon de naviguer en ligne: fixe 
+* expertise du domaine: moyenne, son expertise est limitée par son comportement (il a trouvé quelque chose qui lui plait, il s'y cantone). Son critère --> L'habittude, une affaire qui marche
+
+###### 1.5.1.4 UTILISTAEUR MIN, L'ETUDIANTE
+* Type utilisateur :
+	* age: 18
+	* genre: F
+	* prenom: Céline
+	* proffession: étudiante
+	* catégorie socioprofessionnelle: étudiante
+* besoins ou objectifs vis-à-vis du produit ou service: recoit des amis, quantité, prix, veut une présentation soignée
+* critères de choix et d'habitudes: commande rarement, qques fois par année max.
+* façon de naviguer en ligne: fixe et mobile 
+* expertise du domaine: moyene, conosmme peu souvent. Son critère: Les yeux
 
 ##### 1.5.2. AUTRES CONSIDERATIONS MARKETING (optionnel)
 * référencement
@@ -216,10 +251,8 @@ UML : diagramme de contexte
 > Lister l'ensemble des fonctionnalités. Une fois fait, regrouper celles-ci en les mettant en couleur (l'idée est de regrouper celles qui semblent concerner les même sujets)
 
 > **Q**: En fait, c’est la liste de mes cas d’utilisations ?  
-> **A**:
+> **A**: Non. Un cas d'utilisation aura tout une liste de fonctionnalité
 
-> **Q**: est ce que je peux pas mettre ca juste avant l'impact mapping?
-> **A**:
 
 #### *2.3. DIAGRAMME DE PACKAGE*
 
@@ -230,7 +263,7 @@ UML : diagramme de package
 
 ##### 2.3.1. - Package 1
 
-###### 2.3.1.1. - Diagramme de cas d'utilisation 1 (Use case) :
+###### 2.3.1.1. - Cas d'utilisation (diagramme) :
 
 > réaliser un use case reprenant l'ensemble des fonctionnalités listées de la couleur de votre package
 
@@ -239,7 +272,7 @@ UML : diagramme de package
 
 UML : diagramme cas d’utilissation
 
-###### 2.3.1.2. - Scenario de cas d'utilisation 1 (Use case) :
+###### 2.3.1.2. - Cas d'utilisation (scenario) :
 
 > Réaliser un ou plusieurs scénarios pour chaque use case. L'idée étant que vos scénarios doivent balayer l'ensemble des "bulles" de votre cas d'utilisation.
 
@@ -253,7 +286,7 @@ UML : diagramme cas d’utilissation
 
 > *Réaliser un diagramme d'activité qui représente l'ensemble du cycle de vie d'une commande, de sa création à sa finalisation.*
 
-> *Attention : Ceci est un système d'entonoir a chaque fois que vous ajouter une nouvelle information (par exemple un nouvel acteur lors de l'explication des package), vous devrez remonter sur l'ensemble des parties du document pour vous assurer que vous ajouterez ce nouvel acteur dans tous vos précédents schémas. *
+> *Attention : Ceci est un système d'entonoir a chaque fois que vous ajouter une nouvelle information (par exemple un nouvel acteur lors de l'explication des package), vous devrez remonter sur l'ensemble des parties du document pour vous assurer que vous ajouterez ce nouvel acteur dans tous vos précédents schémas.*
 
 > *Tips : Pour les scénarios, bien utiliser la partie finale de "question ouverte" pour démontrer les fonctionnalités non obligatoires mais que vous pouvez imaginer. Cela permettra de démontrer votre questionnement sur le projet et que vous êtes capable de voir plus loin que ce que l'on vous demande, sans pour autant nécessiter de tout représenter dans vos diagrammes UML !*
 
