@@ -8,5 +8,5 @@
 
 ## Deliverable
 
-Documentation fonctionnelle
-Solution technique
+* Documentation fonctionnelle.
+* Solution technique.
